@@ -29,9 +29,15 @@
 
 }
 
-.header-content {
+.text-content {
     width: 80%;
     margin: 0px auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
 }
 
 
@@ -54,6 +60,11 @@ nav {
     padding: 12px 36px;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    background-color: goldenrod;
+    color: white;
 }
 
 /* banner section */
@@ -71,4 +82,21 @@ nav {
 .border {
     border-bottom: dashed;
     color: gray;
+}
+
+/* main section */
+.bg-main{
+    background-color: rgba(0, 0, 255, 0.075);
+}
+.img-min{
+    border-radius: 20px;
+}
+.see{
+    font-size: 42px;
+    font-weight: 700;
+}
+.see-description{
+    font-size: 24px;
+    font-weight: 400;
+    color: #25243280;
 }
