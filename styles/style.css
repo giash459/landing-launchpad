@@ -143,6 +143,9 @@ nav {
     justify-content: space-between;
     gap: 10px;
 }
+.icon{
+    color: orange;
+}
 .users-container{
     background-color: white;
     border: 1px solid rgb(242, 237, 237);
@@ -157,13 +160,22 @@ nav {
     font-size: 16px;
     font-weight: 400;
 }
+.reviewer-img{
+    border-radius: 100px;
+}
 .Reviewer-name{
-    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 .users-reviewer{
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+}
+.users-Date{
+    color: rgba(128, 128, 128, 0.527);
+    margin-top: -10px;
 }
 /* get-touch section */
 .get-touch{
@@ -171,6 +183,7 @@ nav {
     justify-content: space-between;
     padding-top: 50px;
     gap: 50px;
+    padding-bottom: 50px;
 }
 .get-touch-title{
     font-size: 97px;
@@ -193,5 +206,28 @@ nav {
 }
 .touch-btn{
     width: 430px;
+}
+/* footer section */
+footer{
+    text-align: center;
+    margin: 100px;
+}
+.logo-footer{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    margin-top: -50px;
+}
+.anchor{
+    text-decoration: none;
+    color: #8987A1;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
