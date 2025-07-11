@@ -34,7 +34,7 @@
     margin: 0px auto;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -62,7 +62,8 @@ nav {
     font-weight: 700;
     cursor: pointer;
 }
-.sign-btn:hover{
+
+.sign-btn:hover {
     background-color: goldenrod;
     color: white;
 }
@@ -85,46 +86,54 @@ nav {
 }
 
 /* main section */
-.bg-main{
+.bg-main {
     background-color: rgba(0, 0, 255, 0.075);
 }
-.img-min{
+
+.img-min {
     border-radius: 20px;
 }
-.see{
+
+.see {
     font-size: 42px;
     font-weight: 700;
 }
-.see-description{
+
+.see-description {
     font-size: 24px;
     font-weight: 400;
     color: #25243280;
 }
 
 /* joined section */
-.bg-blue{
+.bg-blue {
     background-color: #4E47FF1A;
     border-radius: 20px;
     margin-top: 100px;
 }
-.joined-content{
+
+.joined-content {
     padding: 50px 100px;
 }
-.joined-title{
+
+.joined-title {
     font-size: 38px;
     font-weight: 700;
     text-align: center;
 }
-.joined-container{
+
+.joined-container {
     display: flex;
     justify-content: space-between;
 }
-.prices{
+
+.prices {
     color: rgb(78, 71, 255);
     font-size: 72px;
     font-weight: 700;
 }
-.prices-description{
+
+.prices-description {
     font-size: 20px;
     font-weight: 400;
     color: #00000080;
@@ -132,68 +141,109 @@ nav {
 }
 
 /* users section */
-.users-title{
+.users-title {
     margin-top: 100px;
     text-align: center;
     font-size: 42px;
     font-weight: 700;
 }
-.users{
+
+.users {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
-.icon{
+
+.icon {
     color: orange;
 }
-.users-container{
+
+.users-container {
     background-color: white;
     border: 1px solid rgb(242, 237, 237);
     border-radius: 10px;
     padding: 20px;
 }
-.content-title{
+
+.content-title {
     font-size: 24px;
     font-weight: 600;
 }
-.content-description{
+
+.content-description {
     font-size: 16px;
     font-weight: 400;
 }
-.reviewer-img{
+
+.reviewer-img {
     border-radius: 100px;
 }
-.Reviewer-name{
+
+.Reviewer-name {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.users-reviewer{
+
+.users-reviewer {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
 }
-.users-Date{
+
+.users-Date {
     color: rgba(128, 128, 128, 0.527);
     margin-top: -10px;
 }
+
+/* focus section */
+.focus-container {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.focus-description {
+    color: #00000080;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.img-content {
+    padding: 50px;
+
+}
+
+.focus-img {
+    border-radius: 20px;
+}
+
 /* get-touch section */
-.get-touch{
+.get-touch {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
     gap: 50px;
     padding-bottom: 50px;
 }
-.get-touch-title{
+
+.get-touch-title {
     font-size: 97px;
     font-weight: 700;
 }
-.with-50{
+
+.with-50 {
     width: 45%;
 }
 
-.input{
+.input {
     color: #00000080;
     padding: 15px;
     border: none;
@@ -204,30 +254,34 @@ nav {
     font-size: 20px;
     font-weight: 400;
 }
-.touch-btn{
+
+.touch-btn {
     width: 430px;
 }
+
 /* footer section */
-footer{
+footer {
     text-align: center;
     margin: 100px;
 }
-.logo-footer{
+
+.logo-footer {
     font-size: 100px;
     font-weight: 900;
     color: #4E47FF;
 }
-.footer-description{
+
+.footer-description {
     font-size: 16px;
     font-weight: 400;
     color: #8987A1;
     margin-top: -50px;
 }
-.anchor{
+
+.anchor {
     text-decoration: none;
     color: #8987A1;
     margin-right: 30px;
     font-size: 16px;
     font-weight: 400;
 }
-
