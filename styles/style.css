@@ -100,3 +100,68 @@ nav {
     font-weight: 400;
     color: #25243280;
 }
+
+/* joined section */
+.bg-blue{
+    background-color: #4E47FF1A;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.joined-content{
+    padding: 50px 100px;
+}
+.joined-title{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+.joined-container{
+    display: flex;
+    justify-content: space-between;
+}
+.prices{
+    color: rgb(78, 71, 255);
+    font-size: 72px;
+    font-weight: 700;
+}
+.prices-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000080;
+    margin-top: -50px;
+}
+
+/* users section */
+.users-title{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.users-container{
+    background-color: white;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 10px;
+    padding: 20px;
+}
+.content-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.content-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.Reviewer-name{
+    padding-left: 40px;
+}
+.users-reviewer{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
